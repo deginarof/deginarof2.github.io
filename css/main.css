@@ -1,0 +1,39 @@
+body {
+    font-size: 20px;
+}
+
+header,
+#h3,
+nav,
+main,
+footer,
+section {
+    margin: 1% auto;
+    max-width: 40%;
+}
+
+header,
+footer {
+    height: 80px;
+    background-color: #1238ED;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    margin: 20px;
+}
+
+img {
+    height: 200px;
+    float: righ;
+}
+
+section {
+    position: fixed;
+    margin: 2% auto;
+    position: fixed;
+    top: 5%;
+    right: 32%;
+}
