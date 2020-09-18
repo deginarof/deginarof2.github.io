@@ -32,8 +32,17 @@ h1 {
     color: #ffffff;
 }
 
-hr {
+hr,
+a {
     color: #12EDC7;
+}
+
+a:hover {
+    color: #38ED12;
+}
+
+a:visited {
+    color: #ED1238;
 }
 
 h3 {
