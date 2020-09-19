@@ -37,12 +37,13 @@
         }
         a {
             color: #045c4d;
+            text-decoration: none;
         }
         a:hover {
             color: #1b6e0a;
         }
         a:visited {
-            color: #e7a3ae;
+            color: #24dbf3;
         }
         img {
             height: 150px;

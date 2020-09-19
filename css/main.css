@@ -37,15 +37,17 @@ hr {
 }
 
 a {
-    color: #045c4d;
+    color: #1238ED;
 }
 
 a:hover {
     color: #1b6e0a;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #e7a3ae;
+    color: #900b42;
+    text-decoration: none;
 }
 
 img {
