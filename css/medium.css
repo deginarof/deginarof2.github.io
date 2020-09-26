@@ -38,20 +38,19 @@ hr {
 
 a {
     color: #1238ED;
+    text-decoration: none;
 }
 
 a:hover {
     color: #1b6e0a;
-    text-decoration: none;
 }
 
 a:visited {
     color: #900b42;
-    text-decoration: none;
 }
 
 img {
-    height: 200px;
+    width: 30%;
     float: right;
     margin: 10px;
     border: 5px solid #12A5ED;
