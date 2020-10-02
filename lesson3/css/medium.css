@@ -1,0 +1,26 @@
+@media only screen and (min-width: 37.5em) {
+    body {
+        font-size: 1em;
+    }
+    header,
+    footer {
+        margin: 10px 15px 8px 10px;
+        border-radius: 15px;
+    }
+    nav,
+    main {
+        margin: 0px 15px 0px 10px;
+    }
+    li {
+        float: left;
+    }
+    nav li {
+        margin-right: 15px;
+    }
+    footer {
+        height: 30px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
