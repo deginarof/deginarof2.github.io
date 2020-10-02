@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+    @media only screen and (min-width: 60em) {
     header,
     footer {
         border-radius: 5px 45px;
@@ -32,4 +32,3 @@
     h3 {
         font-size: 2em;
     }
-}
