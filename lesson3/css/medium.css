@@ -14,15 +14,10 @@
     li {
         float: left;
     }
-}
-
-footer {
-    height: 30px;
-}
-
-h1 {
-    font-size: 1.5em;
-}
-
-
+    footer {
+        height: 30px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
 }
