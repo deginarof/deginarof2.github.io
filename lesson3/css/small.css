@@ -87,13 +87,8 @@
         color: #fb8500;
     }
     
-    p,
-    ol li {
+    p {
         color: #023047;
-    }
-    
-    ol li {
-        padding-left: 2%;
     }
     
     img {
@@ -102,4 +97,9 @@
     
     picture>img {
         width: 15%;
+    }
+    
+    .font {
+        width: 25%;
+        margin: 10px 10px 10px 0px;
     }
