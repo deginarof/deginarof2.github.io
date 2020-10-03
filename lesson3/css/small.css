@@ -87,10 +87,19 @@
         color: #fb8500;
     }
     
-    p {
+    p,
+    ol li {
         color: #023047;
+    }
+    
+    ol li {
+        padding-left: 2%;
     }
     
     img {
         width: 98%;
+    }
+    
+    picture>img {
+        width: 15%;
     }
