@@ -1,0 +1,32 @@
+@media only screen and (min-width: 37.5em) {
+    body {
+        margin: 2% 10% 2% 10%;
+    }
+    header {
+        margin-bottom: 1%;
+    }
+    .header,
+    footer {
+        border-radius: 15px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    .center>div {
+        margin-left: 58px;
+    }
+    li {
+        float: left;
+    }
+    nav ul li a {
+        font-size: 1em;
+    }
+    h2,
+    h3 {
+        font-size: 1.6rem;
+        margin-left: 7px;
+    }
+    main div {
+        background-color: #dce8ee;
+    }
+}
