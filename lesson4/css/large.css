@@ -3,16 +3,23 @@
         margin-bottom: 0px;
     }
     picture {
-        margin-left: 14%;
+        margin-left: 10%;
     }
     .center>div {
         margin-left: 2px;
     }
-    .navigation {
-        box-shadow: 0px 5px 6px gray;
-    }
-    .navigation li:first-child {
+    nav button {
         display: none;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 1em;
+        padding: .6rem 1rem;
     }
     main {
         margin-top: 0px;

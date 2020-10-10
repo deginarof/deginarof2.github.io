@@ -1,19 +1,22 @@
 @media only screen and (min-width: 37.5em) {
     picture {
-        margin-left: 25%;
+        margin-left: 23%;
     }
     h1 {
         font-size: 1.7rem;
     }
-    .navigation {
-        display: flex;
+    nav button {
+        display: none;
     }
-    .navigation ul li a {
-        font-size: 1em;
+    nav ul li {
+        float: left;
     }
-    .navigation li {
+    nav ul.hide {
         display: block;
-        flex: 1 1 100%;
+    }
+    nav ul li a {
+        font-size: 1em;
+        padding: .8rem 1rem;
     }
     h2,
     h3 {
