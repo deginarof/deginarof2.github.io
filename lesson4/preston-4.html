@@ -6,7 +6,7 @@
     <meta name="author" content="Degina Rodolfo de Oliveira Fernandes">
     <meta name="description" content="Weather Page">
     <meta name="viewport" content="width-device-width, initial-scale=1, viewport-fit=cover">
-    <link href=<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="../lesson4/css/small.css">
     <link rel="stylesheet" href="../lesson4/css/medium.css">
@@ -23,13 +23,14 @@
             </picture>
             <div class="center">
                 <h1>Weathersee</h1>
-                <div>Plan your future here.</div>
+                <div>Plan your future here</div>
             </div>
         </section>
     </header>
 
     <nav>
-        <ul>
+        <ul class="navigation">
+            <li><a href="#" onclick="togglemenu()">&#9776;</a></li>
             <li><a href="#">Home</a></li>
             <li><a class="active" href="#">Preston</a></li>
             <li><a href="#">Soda Spring</a></li>
@@ -49,8 +50,9 @@
     </main>
 
     <footer>
-        &copy;2020 | Weathersee | Degina Fernandes | <br>Last Update:<span id='currentdate'></span>
+        &copy; <span id="year">2020</span>| Weathersee | Degina Fernandes | <br>Last Update:<span id='currentdate'></span>
     </footer>
+    <script src="js/toggle.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/year.js"></script>
 
