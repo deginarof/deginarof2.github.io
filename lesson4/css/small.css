@@ -84,11 +84,12 @@ nav ul.hide {
 
 nav ul li a {
     display: block;
-    color: #ffffff;
+    color: #023047;
     padding: .8rem 2%;
     text-decoration: none;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 nav a:hover {
