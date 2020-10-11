@@ -8,6 +8,9 @@
     nav button {
         display: none;
     }
+    nav {
+        padding-left: 8%;
+    }
     nav ul li {
         float: left;
     }

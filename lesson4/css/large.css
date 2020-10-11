@@ -11,6 +11,9 @@
     nav button {
         display: none;
     }
+    nav {
+        padding-left: 27%;
+    }
     nav ul li {
         float: left;
     }
@@ -21,7 +24,8 @@
         font-size: 1em;
         padding: .6rem 1rem;
     }
-    main {
+    main,
+    footer {
         margin-top: 0px;
         margin-left: 11%;
         margin-right: 11%;

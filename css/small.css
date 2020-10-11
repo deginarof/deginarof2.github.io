@@ -46,7 +46,7 @@ a:visited {
 }
 
 img {
-    width: 50%;
+    width: 45%;
     box-shadow: 7px 7px 15px rgb(32, 31, 31);
 }
 
@@ -63,4 +63,12 @@ footer {
     padding-top: 10px;
     padding-left: 24px;
     padding-right: 30px;
+}
+
+footer a {
+    color: yellowgreen;
+}
+
+footer a:visited {
+    color: aqua;
 }

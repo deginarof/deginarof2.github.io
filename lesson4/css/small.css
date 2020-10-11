@@ -45,9 +45,13 @@ h1 {
     grid-template-columns: 1fr;
 }
 
+img {
+    margin-left: 37px;
+}
+
 .center>h1 {
     margin-bottom: -5px;
-    margin-top: 28px;
+    margin-top: 35px;
 }
 
 .center>div {
