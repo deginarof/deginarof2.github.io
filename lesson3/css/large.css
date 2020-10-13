@@ -22,6 +22,9 @@
         header {
             height: 50px;
         }
+        picture img {
+            width: 30%;
+        }
         footer {
             height: 5px;
         }
@@ -31,5 +34,9 @@
         h2,
         h3 {
             font-size: 2em;
+            font-weight: 900;
+        }
+        main img {
+            border-radius: 5px 45px;
         }
     }
