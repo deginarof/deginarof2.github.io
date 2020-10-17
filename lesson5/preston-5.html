@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="../lesson4/css/small.css">
-    <link rel="stylesheet" href="../lesson4/css/medium.css">
-    <link rel="stylesheet" href="../lesson4/css/large.css">
+    <link rel="stylesheet" href="../lesson5/css/small.css">
+    <link rel="stylesheet" href="../lesson5/css/medium.css">
+    <link rel="stylesheet" href="../lesson5/css/large.css">
     <title>Weathersee Website Plan</title>
 </head>
 
@@ -24,7 +24,7 @@
             </picture>
             <div class="center">
                 <h1>Weathersee</h1>
-                <div>Plan your future here</div>
+                <div class="motto">Plan your future here</div>
             </div>
         </section>
     </header>
@@ -44,18 +44,22 @@
 
     <main>
         <h2>Preston</h2>
-        <picture class="hero">
-            <img src="images/hero.webp" alt="Page Hero">
-        </picture>
-        <div>
-            <h3>Weather Summary</h3>
-            <p>Currently: Sunny High: 76 F Wind Chilli: F Humidity: 69% Wind Speed: 5mph
-            </p>
-        </div>
-        <div>
+        <container class="totalCont">
+            <picture class="hero">
+                <img src="images/hero.webp" alt="Page Hero">
+            </picture>
+            <div class="summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Sunny High:76F</p>
+                <p>Wind Chilli: F</p>
+                <p> Humidity: 69%</p>
+                <p>Wind Speed: 5mph</p>
+            </div>
+        </container>
+        <div class="forecast">
             <h3>Day Forecast</h3>
         </div>
-        <div>
+        <div class="container">
             <picture>
                 <img src="images/teen.webp" alt="Girls Talking Outside">
             </picture>
@@ -73,15 +77,25 @@
                 lorem. Nullam consectetur, purus sed convallis congue, mauris tellus consectetur quam, et ullamcorper sem nunc ut justo. Sed id nunc tempor, fringilla dui vulputate, dapibus eros. Maecenas ligula velit, placerat sit amet porta sed, condimentum
                 a mauris. Ut pulvinar in orci non feugiat. Pellentesque sit amet purus ut nibh rhoncus mollis. Curabitur fermentum convallis enim eget accumsan. </picture>
         </div>
-        <div>
+        <div class="info">
             <h3>Contact Info</h3>
             <p>
                 &#9993;70 West Oneida Preston, ID 83263<br> &#9990;(208) 852-1817
             </p>
+
+            <picture class="map">
+                <img src="/lesson5/images/prestonMap.webp" alt="Preston Map">
+            </picture>
         </div>
-        <picture>
-            <img src="/lesson5/images/prestonMap.webp" alt="Preston Map">
-        </picture>
+        <div class="socialMedia">
+            <div class="icons">
+                <img src="/lesson5/images/facebook.webp" alt="Facebook Icon">
+
+                <img src="/lesson5/images/youtube.webp" alt="Youtube Icon">
+
+                <img src="/lesson5/images/instagram.webp" alt="Instagram Icon">
+            </div>
+        </div>
     </main>
 
     <footer>
