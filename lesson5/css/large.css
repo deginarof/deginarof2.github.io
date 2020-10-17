@@ -1,93 +1,126 @@
-                @media only screen and (min-width: 60em) {
-                    .header {
-                        margin-bottom: 0px;
-                    }
-                    picture {
-                        margin-left: 10%;
-                    }
-                    .center>div {
-                        margin-left: 2px;
-                    }
-                    nav button {
-                        display: none;
-                    }
-                    nav {
-                        padding-left: 20%;
-                    }
-                    nav ul li {
-                        float: left;
-                    }
-                    nav ul.hide {
-                        display: block;
-                    }
-                    nav ul li a {
-                        font-size: 1.2em;
-                        padding: .6rem .7rem;
-                    }
-                    main {
-                        margin-top: 0px;
-                        margin-left: 8%;
-                        margin-right: 8%;
-                    }
-                    .hero {
-                        width: 90%;
-                        margin-left: 0%;
-                        margin-right: 10%;
-                    }
-                    h2 {
-                        margin-left: -1px;
-                    }
-                    .summary {
-                        width: 25%;
-                        padding: 40px;
-                        margin: 5px 0px;
-                        bottom: 120px;
-                        left: 28px;
-                    }
-                    .summary h3 {
-                        margin-left: 31px;
-                    }
-                    .summary p {
-                        font-size: 1.2rem;
-                    }
-                    .forecast,
-                    .info,
-                    .socialMedia {
-                        width: 95%;
-                        margin: 0% 1%;
-                    }
-                    .container {
-                        width: 80%;
-                        margin: 2% 5% 2% 8%;
-                    }
-                    .container picture img {
-                        width: 50%;
-                        margin: 3% 13%;
-                        border: 10px groove #219ebc;
-                        box-shadow: none;
-                    }
-                    .container p {
-                        margin: 2%;
-                    }
-                    .info h3 {
-                        margin-top: 5%;
-                    }
-                    .info p {
-                        font-size: 1rem;
-                    }
-                    .map img {
-                        width: 50%;
-                        margin: 2% 15% 5% 0%;
-                    }
-                    .socialMedia {
-                        margin-top: 2%;
-                    }
-                    .icons {
-                        margin-left: 77%;
-                        margin-right: 4%;
-                        margin-top: 13px;
-                    }
-                    .socialMedia img {
-                        width: 17%;
-                    }
-                }
+@media only screen and (min-width: 60em) {
+    .header {
+        margin-bottom: 0px;
+    }
+    picture {
+        margin-left: 10%;
+    }
+    .center>div {
+        margin-left: 2px;
+    }
+    nav button {
+        display: none;
+    }
+    nav {
+        padding-left: 20%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+        padding: .6rem .7rem;
+    }
+    main {
+        margin-top: 0px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .hero {
+        width: 90%;
+        margin-left: 0%;
+        margin-right: 10%;
+    }
+    h2 {
+        margin-left: -1px;
+    }
+    .summary {
+        width: 25%;
+        padding: 40px;
+        margin: 5px 0px;
+        bottom: 105px;
+        left: 28px;
+    }
+    .summary h3 {
+        margin-left: 31px;
+    }
+    .summary p {
+        font-size: 1.2rem;
+    }
+    .forecast,
+    .info,
+    .socialMedia {
+        width: 95%;
+        margin: 0% 1%;
+    }
+}
+
+table {
+    margin: 15px 10% 15px 10%;
+}
+
+table,
+th,
+td {
+    border: 3px solid #8ecae6;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+td img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: 2% 5% 2% 8%;
+}
+
+.container picture img {
+    width: 50%;
+    margin: 3% 13%;
+    border: 10px groove #219ebc;
+    box-shadow: none;
+}
+
+.container p {
+    margin: 2%;
+}
+
+.info h3 {
+    margin-top: 5%;
+}
+
+.info p {
+    font-size: 1rem;
+}
+
+.map img {
+    width: 50%;
+    margin: 2% 15% 5% 0%;
+}
+
+.socialMedia {
+    margin-top: 2%;
+}
+
+.icons {
+    margin-left: 77%;
+    margin-right: 4%;
+    margin-top: 13px;
+}
+
+.socialMedia img {
+    width: 17%;
+}
+
+
+}

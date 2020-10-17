@@ -27,10 +27,18 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+    .totalCont {
+        position: relative;
+    }
+    .hero img {
+        width: 100%;
+        margin: 15px 0% 15px 0%;
+    }
     .summary {
         width: 35%;
         padding: 0px 10px;
         margin: 5px 0px;
+        background-color: #8ecae6a8;
         position: absolute;
         bottom: 54px;
         left: 28px;
@@ -46,6 +54,24 @@
     .forecast h3 {
         margin-left: 12px;
     }
+    table,
+    th,
+    td {
+        border: 2px solid #8ecae6;
+        border-collapse: collapse;
+        box-shadow: none;
+    }
+    table tr th {
+        color: #8ecae6;
+    }
+    th,
+    td {
+        padding: 10px;
+    }
+    td img {
+        width: 30%;
+        margin-right: 10px;
+    }
     .container {
         width: 85%;
         margin: 3% 4%;
@@ -53,7 +79,7 @@
     }
     .container picture img {
         margin: 20px 13% 20px 7%;
-        box-shadow: 0 2px 5px gray;
+        box-shadow: 0 2px 5px rgb(36, 35, 35);
     }
     .info h3,
     p {
