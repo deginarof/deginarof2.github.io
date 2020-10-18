@@ -5,6 +5,9 @@
     picture {
         margin-left: 10%;
     }
+    header picture img {
+        margin: 20px 20px 15px -16px;
+    }
     .center>div {
         margin-left: 2px;
     }
@@ -26,23 +29,22 @@
     }
     main {
         margin-top: 0px;
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-    .hero {
-        width: 90%;
         margin-left: 0%;
-        margin-right: 10%;
+        margin-right: 0%;
     }
     h2 {
-        margin-left: -1px;
+        margin-left: 113px;
+    }
+    .hero img {
+        width: 100%;
+        margin: 5px -5% 5px -10%;
     }
     .summary {
         width: 25%;
         padding: 40px;
         margin: 5px 0px;
-        bottom: 105px;
-        left: 28px;
+        bottom: 150px;
+        left: 110px;
     }
     .summary h3 {
         margin-left: 31px;
@@ -50,77 +52,64 @@
     .summary p {
         font-size: 1.2rem;
     }
-    .forecast,
-    .info,
-    .socialMedia {
-        width: 95%;
-        margin: 0% 1%;
+    .forecast {
+        width: 81%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
-}
-
-table {
-    margin: 15px 10% 15px 10%;
-}
-
-table,
-th,
-td {
-    border: 3px solid #8ecae6;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    padding: 20px;
-}
-
-td img {
-    width: 50%;
-    margin-right: 40px;
-}
-
-.container {
-    width: 80%;
-    margin: 2% 5% 2% 8%;
-}
-
-.container picture img {
-    width: 50%;
-    margin: 3% 13%;
-    border: 10px groove #219ebc;
-    box-shadow: none;
-}
-
-.container p {
-    margin: 2%;
-}
-
-.info h3 {
-    margin-top: 5%;
-}
-
-.info p {
-    font-size: 1rem;
-}
-
-.map img {
-    width: 50%;
-    margin: 2% 15% 5% 0%;
-}
-
-.socialMedia {
-    margin-top: 2%;
-}
-
-.icons {
-    margin-left: 77%;
-    margin-right: 4%;
-    margin-top: 13px;
-}
-
-.socialMedia img {
-    width: 17%;
-}
-
-
+    table {
+        margin: 15px 10% 15px 10%;
+    }
+    table,
+    th,
+    td {
+        border: 3px solid #8ecae6;
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        padding: 20px;
+    }
+    td img {
+        width: 50%;
+        margin-right: 40px;
+    }
+    .container {
+        width: 80%;
+        margin: 2% 5% 2% 8%;
+    }
+    .container picture img {
+        width: 50%;
+        margin: 3% 13%;
+        border: 10px groove #ffb703;
+        box-shadow: none;
+    }
+    .container p {
+        margin: 2%;
+    }
+    .info {
+        height: 410px;
+    }
+    .info h3 {
+        margin-top: 10%;
+        text-align: right;
+        margin-right: 5%;
+    }
+    .info p {
+        font-size: 1rem;
+        text-align: right;
+        margin-right: 5%;
+    }
+    .map img {
+        width: 50%;
+        margin: -14% 5% 10% -2%;
+    }
+    .icons {
+        position: absolute;
+        bottom: 115px;
+        left: 82%;
+    }
+    .icons img {
+        width: 18%;
+    }
 }
