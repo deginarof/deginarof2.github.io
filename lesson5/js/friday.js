@@ -1,4 +1,4 @@
-function myfunction() {}
+function message() {}
 var day = new Date().getDay();
 var message;
 if (day == 5) {
