@@ -1,9 +1,8 @@
-function display(message) {
-    var day = date.getDay();
-    if (day > 5 || day < 5) {
-        return false;
-    } else {}
-    return true;
+function myfunction() {}
+var day = new Date().getDay();
+var message;
+if (day == 5) {
+    message = document.getElementsByClassName('.message').style.display = "block";
+} else {
+    message = document.getElementsByClassName('.message').style.display = "none";
 }
-
-document.querySelector('.message').display = block;
