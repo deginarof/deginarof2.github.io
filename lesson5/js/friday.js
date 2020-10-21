@@ -1,8 +1,10 @@
-function message() {}
-var day = new Date().getDay();
-var message;
-if (day == 5) {
-    message = document.getElementsByClassName('.message').style.display = "block";
+const day = new Date();
+console.log(day);
+const dayNumber = day.getDay();
+console.log(dayNumber);
+const result = document.getElementById("message");
+if (dayNumber == 5) {
+    result.classList.add("showme");
 } else {
-    message = document.getElementsByClassName('.message').style.display = "none";
+    result.classList.add("hideme");
 }

@@ -33,17 +33,20 @@
         margin-right: 0%;
     }
     h2 {
+        font-size: 1.8rem;
         margin-left: 113px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
     .hero img {
         width: 100%;
         margin: 5px -5% 5px -10%;
     }
     .summary {
-        width: 25%;
-        padding: 40px;
-        margin: 5px 0px;
-        bottom: 150px;
+        width: 20%;
+        padding: 5px;
+        margin: 10px 0px;
+        bottom: 155px;
         left: 110px;
     }
     .summary h3 {
