@@ -36,9 +36,9 @@
     .totalCont {
         position: relative;
     }
-    .hero img {
-        width: 100%;
-        margin: 5px 0% 5px 0%;
+    .totalCont .hero img {
+        width: 98%;
+        margin: 5px 0%;
     }
     .summary {
         width: 35%;
@@ -46,8 +46,8 @@
         margin: 5px 0px 35px 0px;
         background-color: #8ecae6a8;
         position: absolute;
-        bottom: 10px;
-        left: 28px;
+        bottom: 52px;
+        left: 40px;
         box-shadow: 5px 5px 4px #1f1d1d;
     }
     .forecast {

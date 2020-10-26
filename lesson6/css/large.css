@@ -2,10 +2,10 @@
     .header {
         margin-bottom: 0px;
     }
-    picture {
-        margin-left: 10%;
+    figure {
+        margin-left: 18%;
     }
-    header picture img {
+    header figure img {
         margin: 20px 20px 15px -16px;
     }
     .center>div {
@@ -34,20 +34,26 @@
     }
     h2 {
         font-size: 1.8rem;
-        margin-left: 113px;
+        margin-left: 11%;
         margin-bottom: 40px;
         margin-top: 40px;
     }
+    .totalCont {
+        padding-right: 16px;
+    }
+    .totalCont .hero {
+        margin: 5px 20px;
+    }
     .hero img {
         width: 100%;
-        margin: 5px -5% 5px -10%;
+        margin-right: 10px;
     }
     .summary {
         width: 20%;
         padding: 5px;
         margin: 10px 0px;
-        bottom: 155px;
-        left: 110px;
+        bottom: 180px;
+        left: 145px;
     }
     .summary h3 {
         margin-left: 31px;
@@ -83,7 +89,7 @@
     }
     .container picture img {
         width: 50%;
-        margin: 3% 13%;
+        margin: 3% 23%;
         border: 10px groove #ffb703;
         box-shadow: none;
     }
@@ -105,7 +111,7 @@
     }
     .map img {
         width: 50%;
-        margin: -14% 5% 10% -2%;
+        margin: -14% 5% 10% 8%;
     }
     .icons {
         position: absolute;

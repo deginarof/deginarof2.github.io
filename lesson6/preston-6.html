@@ -46,7 +46,11 @@
         <h2>Preston</h2>
         <div class="totalCont">
             <picture class="hero">
-                <img src="images/hero.webp" alt="Page Hero">
+                <source media="(max-width: 400px)" srcset="images/small-ver.webp">
+                <source media="(max-width: 800px)" srcset="images/medium-ver.webp">
+                <source media="(max-width: 1200px)" srcset="images/large-ver.webp">
+                <img src="images/standard_1.webp" alt="Page Hero">
+
             </picture>
             <div class="summary">
                 <h3>Weather Summary</h3>
