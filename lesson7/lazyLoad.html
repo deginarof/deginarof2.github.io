@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Degina Rodolfo de Oliveira Fernandes">
+    <meta name="description" content="CIT 230: Assignment Portal">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <title>Layload Images</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Lazyload Images Example</h1>
+        <h2>Coqueiral de Aracruz, in Espirito Santo, Brazil</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Portal</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/buda.webp" alt="Coqueiral Beach">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/monsteiroEntrance.webp" alt="Ibiraçu´s Buddhist Monastery">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/monsteiroPortal.webp" alt="Ibiraçu´s Buddhist Portal">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/monsteiroView.webp" alt="Ibiraçu´s Buddhist Monastery´s View">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/coqueBeach.webp" alt="Coqueiral Beach">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/coqueBeach1.webp" alt="Coqueiral Beach">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/coqueBeach2.webp" alt="Coqueiral Beach">
+        </picture>
+
+        <picture>
+            <img src="https://via.placeholder.com/400.webp/ffb703?Text=Weathersee" data-src="images/coqueBeach3.webp" alt="Coqueiral Beach">
+        </picture>
+    </main>
+    <footer>
+        &copy; <span id="year">2020</span> | Degina Fernandes | Espirito Santo - Brazil | <br><a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> |<br> Last Update:<span id='currentdate'></span>
+    </footer>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
