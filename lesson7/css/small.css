@@ -1,12 +1,29 @@
-footer {
-    background-color: #023047;
+#message {
+    background-color: #ffb703;
+    padding: 10px 9% 10px 9%;
+    margin: 5px 0% 5px 0%;
+    text-align: center;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
 }
 
 body {
-    margin: 5% 10%;
+    margin: 0%;
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     color: #023047;
+}
+
+.header,
+footer {
+    background-color: #023047;
+    width: 100%;
 }
 
 .header {
@@ -14,8 +31,71 @@ body {
     height: 120px;
 }
 
+footer {
+    height: 35px;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.8rem;
+}
+
+header picture img {
+    width: 80px;
+    margin: 20px 20px 15px 30px;
+}
+
+h1,
+.motto,
+footer {
+    color: #8ecae6;
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffb703;
+}
+
+h2 {
+    margin-left: 2%;
+}
+
+h2,
+h3 {
+    color: #fb8500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 1px 2px #023047;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    margin-left: 37px;
+}
+
+.center>h1 {
+    margin-bottom: -5px;
+    margin-top: 35px;
+}
+
+.center>div {
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #023047;
+    padding: 6px;
+}
+
 nav {
-    background-color: #023047;
+    background-color: #219ebc;
     box-shadow: 0 2px 5px gray;
 }
 
@@ -23,6 +103,10 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+nav ul.hide {
+    display: none;
 }
 
 nav ul li a {
@@ -51,44 +135,15 @@ a {
     text-decoration: none;
 }
 
-footer {
-    color: #8ecae6;
-    height: 35px;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.8rem;
-}
-
-h1 {
-    color: #fb8500;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-shadow: 1px 2px #023047;
-    text-align: center;
-}
-
-h2 {
-    color: #219ebc;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-shadow: 1px 2px #023047;
-    text-align: center;
-}
-
 main {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-picture {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-img {
-    width: 400px;
     margin: 10px;
-    box-shadow: 8px 8px 10px rgb(36, 35, 35);
+}
+
+.gallery {
+    width: 94%;
+    margin: 10px;
 }
 
 article img[data-src] {
@@ -97,5 +152,5 @@ article img[data-src] {
 
 article img {
     filter: blur(0em);
-    transition: filter 5s;
+    transition: filter 3s;
 }

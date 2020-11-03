@@ -1,0 +1,41 @@
+@media only screen and (min-width: 60em) {
+    .header {
+        margin-bottom: 0px;
+    }
+    figure {
+        margin-left: 18%;
+    }
+    header figure img {
+        margin: 20px 20px 15px -16px;
+    }
+    .center>div {
+        margin-left: 2px;
+    }
+    nav button {
+        display: none;
+    }
+    nav {
+        padding-left: 20%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+        padding: .6rem .7rem;
+    }
+    main {
+        margin-top: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    h2 {
+        font-size: 1.8rem;
+        margin-left: 11%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
