@@ -33,84 +33,13 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-    .totalCont {
-        position: relative;
+    .galleryContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
     }
-    .totalCont .hero img {
-        width: 98%;
-        margin: 5px 0%;
-    }
-    .summary {
-        width: 35%;
-        padding: 0px 10px;
-        margin: 5px 0px 35px 0px;
-        background-color: #8ecae6a8;
-        position: absolute;
-        bottom: 52px;
-        left: 40px;
-        box-shadow: 5px 5px 4px #1f1d1d;
-    }
-    .forecast {
-        display: block;
-        background-color: #023047;
-        width: 96%;
-        padding: 1px 15px 15px 15px;
-        box-shadow: 0 2px 5px gray;
-    }
-    .forecast h3 {
-        margin-left: 12px;
-    }
-    table,
-    th,
-    td {
-        border: 2px solid #8ecae6;
-        border-collapse: collapse;
-        box-shadow: none;
-    }
-    table tr th {
-        color: #8ecae6;
-    }
-    th,
-    td {
-        padding: 10px;
-    }
-    td img {
-        width: 30%;
-        margin-right: 10px;
-    }
-    .container {
-        width: 85%;
-        margin: 1% 4%;
-        box-shadow: 0 2px 5px gray;
-    }
-    .container picture img {
-        width: 65%;
-        margin: 20px 13% 20px 17%;
-        box-shadow: 0 2px 5px rgb(36, 35, 35);
-    }
-    .container p {
-        margin-left: 3%;
-    }
-    .info h3,
-    p {
-        text-align: left;
-        margin-left: 10%;
-    }
-    .info p {
-        margin-top: 5px;
-    }
-    .map img {
+    .gallery {
+        border-radius: 5px 150px;
         width: 60%;
-        margin-left: 10%;
-        margin-top: 4%;
-        margin-bottom: 5%;
-    }
-    .icons {
-        position: absolute;
-        bottom: 35px;
-        left: 72%;
-    }
-    .icons img {
-        width: 21%;
     }
 }

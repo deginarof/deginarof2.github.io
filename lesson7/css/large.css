@@ -27,98 +27,14 @@
         font-size: 1.2em;
         padding: .6rem .7rem;
     }
-    main {
-        margin-top: 0px;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
     h2 {
         font-size: 1.8rem;
         margin-left: 11%;
         margin-bottom: 40px;
         margin-top: 40px;
     }
-    .totalCont {
-        padding-right: 16px;
-    }
-    .totalCont .hero {
-        margin: 5px 20px;
-    }
-    .hero img {
-        width: 100%;
-        margin-right: 10px;
-    }
-    .summary {
-        width: 20%;
-        padding: 5px;
-        margin: 10px 0px;
-        bottom: 180px;
-        left: 145px;
-    }
-    .summary h3 {
-        margin-left: 31px;
-    }
-    .summary p {
-        font-size: 1.2rem;
-    }
-    .forecast {
-        width: 81%;
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-    table {
-        margin: 15px 10% 15px 10%;
-    }
-    table,
-    th,
-    td {
-        border: 3px solid #8ecae6;
-        border-collapse: collapse;
-    }
-    th,
-    td {
-        padding: 20px;
-    }
-    td img {
-        width: 50%;
-        margin-right: 40px;
-    }
-    .container {
-        width: 80%;
-        margin: 2% 5% 2% 8%;
-    }
-    .container picture img {
-        width: 50%;
-        margin: 3% 23%;
-        border: 10px groove #ffb703;
-        box-shadow: none;
-    }
-    .container p {
-        margin: 2%;
-    }
-    .info {
-        height: 410px;
-    }
-    .info h3 {
-        margin-top: 10%;
-        text-align: right;
-        margin-right: 5%;
-    }
-    .info p {
-        font-size: 1rem;
-        text-align: right;
-        margin-right: 5%;
-    }
-    .map img {
-        width: 50%;
-        margin: -14% 5% 10% 8%;
-    }
-    .icons {
-        position: absolute;
-        bottom: 115px;
-        left: 82%;
-    }
-    .icons img {
-        width: 18%;
+    .galleryContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

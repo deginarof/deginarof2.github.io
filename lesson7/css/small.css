@@ -138,58 +138,17 @@ main {
     margin: 10px;
 }
 
-.totalCont .hero img {
-    width: 96%;
-    margin: 5px 0%;
-}
-
-.totalCont .hero {
-    margin: 5px 15px 5px 5px;
-}
-
-.summary {
+.gallery {
     width: 90%;
-    background-color: #219ebc;
-    padding: 2px 10px;
-    margin: 0px 5px 5px 5px;
+    margin: 10px 10px 10px 15px;
 }
 
-.summary p {
-    text-align: left;
+figcaption {
+    margin-left: 15px;
 }
 
-.forecast {
-    display: none;
-}
-
-.container picture img {
-    width: 85%;
-    margin: 20px;
-    box-shadow: 5px 5px 7px #5a5a5a;
-}
-
-.container {
-    width: 80%;
-    background-color: #8ecae6;
-    padding: 22px;
-    margin: 5px 10px;
-}
-
-.info {
-    width: 100%;
-    background-color: #219ebc;
-    margin: 5px -10px;
-    padding: 5px 10px 80px 10px;
-}
-
-.info h3,
-p {
-    text-align: center;
-}
-
-.map img {
-    width: 80%;
-    box-shadow: 5px 5px 7px #5a5a5a;
+.gallery:hover {
+    box-shadow: 0 0 50px#fb8500;
 }
 
 .socialMedia {
@@ -206,6 +165,15 @@ p {
     width: 12%;
     margin-left: 5%;
     margin-right: 0%;
+}
+
+figure img[data-src] {
+    filter: blur(0.5em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 
 .clearfix:after {
