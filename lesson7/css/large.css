@@ -2,20 +2,14 @@
     .header {
         margin-bottom: 0px;
     }
-    figure {
-        margin-left: 18%;
-    }
-    header figure img {
-        margin: 20px 20px 15px -16px;
-    }
-    .center>div {
-        margin-left: 2px;
+    header picture img {
+        margin: 20px 20px 15px 110px;
     }
     nav button {
         display: none;
     }
     nav {
-        padding-left: 20%;
+        padding-left: 25%;
     }
     nav ul li {
         float: left;
@@ -29,12 +23,15 @@
     }
     h2 {
         font-size: 1.8rem;
-        margin-left: 11%;
-        margin-bottom: 40px;
+        margin-left: 3%;
+        margin-bottom: 30px;
         margin-top: 40px;
     }
     .galleryContainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery {
+        width: 90%;
     }
 }
