@@ -16,7 +16,7 @@
 </head>
 
 <body>
-
+    <div id="message">Hi guys! today is Sweet Friday so you are welcome to join us for free pancake at the eddress bellow at 7pm. See you there.</div>
     <header>
         <section class="header">
             <picture>
@@ -36,31 +36,33 @@
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a class="active" href="#">Storm Center</a></li>
+            <li><a class="active" href="../lesson8/stormCenter.html">Storm Center</a></li>
             <li><a href="../lesson7/gallery7.html">Gallery</a></li>
+
         </ul>
     </nav>
 
     <main>
         <h2>Storm Center</h2>
+        <h3>Storm Report</h3>
         <div>
-            <form>
-                <fieldset>
+            <form action="thanks.html" target="_blank" method="POST">
+                <fieldset class="division">
                     <legend>Personal Information</legend>
-                    <label for="fname" required>Full name:
-                <input type="text" name="fname" id="fname" placeholder="John Roberts" autofocus></label>
-                    <label for="email"><br>e-mail:
+                    <label class="top" for="fname">Full name<span class="required">*</span>
+                <input type="text" name="fname" id="fname" pattern="[A-Za-z]{5,}" placeholder="John Roberts" autofocus required></label>
+                    <label class="top" for="email"><br>e-mail
                 <input type="email" name="email" id="email" placeholder="1234@email.com" autofocus></label>
-                    <label for="phnumber"><br>Phone Number:
+                    <label class="top" for="phnumber"><br>Phone Number<span class="required">*</span>
                 <input type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required autofocus></label>
-                    <label for="zipCode"><br>Zip Code:
+                    <label class="top" for="zipCode"><br>Zip Code<span class="required">*</span>
                 <input type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required autofocus></label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="division">
                     <legend>Storm Information</legend>
-                    <label for="date"><br>Storm Date:
+                    <label class="top" for="date"><br>Storm Date
                 <input type="date" name="date" id="date"></label>
-                    <label for="stype"><br>Storm Type:
+                    <label class="top" for="stype"><br>Storm Type
                 <input list="storms" id="stype">
                 <datalist>
                     <option value="flood" selected>Flash Flood</option>
@@ -69,26 +71,29 @@
                     <option value="thunderstorm">Thunderstorm</option>
                     <option value="tornado">Tornado</option>
                 </datalist></label>
-                    <label for="severity"><br>Storm Severity:
-                <input type="range" name="severity" min="1" max="10"id="severity" ></label>
-                    <label for="sregion"><br>Storm Region:>
+                    <label class="top" for="severity"><br>Storm Severity &nbsp;&nbsp;&nbsp;
+                <input type="range" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" id="severity"><span id="ratingvalue">5</span></label>
+                    <label class="top" for="sregion"><br>Storm Region
                 <select name="sregion">
                     <option value="sregion" selected>Select Region</option>
                     <option value="prston">Preston</option>
                     <option value="sodaSpring">Soda Spring</option>
                     <option value="fishHaven">Fish Haven</option>
                 </select></label>
-                    <label for="userid"><br>User In-Danger:
-                <input type="radio" name="options" value="yes" id="yes" ></label>
-                    <label for="yes">Yes
-                <input type="radio" name="options" value="no" id="no"></label>
-                    <label for="no">No
-                <input type="radio" name="options" value="maybe" id="maybe" ></label>
-                    <label for="maybe">Maybe</label>
                 </fieldset>
-                <textarea name="message" rows="10" cols="30">Please, leave your message here.
+                <fieldset class="division">
+                    <Legend>Aditional Information</Legend>
+                    <label class="sbs" for="userid"><br>User In-Danger
+                    <label class="sbs" for="yes">Yes
+                        <input type="radio" name="options" value="yes" id="yes" ></label>
+                    <label class="sbs" for="no">No
+                <input type="radio" name="options" value="no" id="no"></label>
+                    <label class="sbs" for="maybe">Maybe
+                <input type="radio" name="options" value="maybe" id="maybe" ></label>
+                    <textarea id="message" name="message" rows="10" cols="28">Please, leave your message here.
                 </textarea>
-                <input type="submit" value="Submit">
+                    <label><input class="send" type="submit" value="Sending Storm"></label>
+                </fieldset>
             </form>
 
         </div>
@@ -98,10 +103,12 @@
     <footer>
         &copy; <span id="year">2020</span>| Weathersee | Degina Fernandes | <br>Last Update:<span id='currentdate'></span>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
     <script src="js/toggle.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/year.js"></script>
-
+    <script src="js/friday.js"></script>
 </body>
 
 </html>
