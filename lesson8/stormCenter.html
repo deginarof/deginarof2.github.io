@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Degina Rodolfo de Oliveira Fernandes">
+    <meta name="description" content="Weather Page">
+    <meta name="viewport" content="width-device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/lesson8/css/small.css">
+    <link rel="stylesheet" href="/esson8/css/medium.css">
+    <link rel="stylesheet" href="/lesson8/css/large.css">
+    <title>Storm Center</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="header">
+            <picture>
+                <img src="../lesson4/images/logo.webp" alt="Page logo">
+            </picture>
+            <div class="center">
+                <h1>Weathersee</h1>
+                <div>Plan your future here</div>
+            </div>
+        </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Spring</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="#">Storm Center</a></li>
+            <li><a href="../lesson7/gallery7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fname" required>Full name:
+                <input type="text" name="fname" id="fname" placeholder="John Roberts" autofocus></label>
+                    <label for="email"><br>e-mail:
+                <input type="email" name="email" id="email" placeholder="1234@email.com" autofocus></label>
+                    <label for="phnumber"><br>Phone Number:
+                <input type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required autofocus></label>
+                    <label for="zipCode"><br>Zip Code:
+                <input type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required autofocus></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label for="date"><br>Storm Date:
+                <input type="date" name="date" id="date"></label>
+                    <label for="stype"><br>Storm Type:
+                <input list="storms" id="stype">
+                <datalist>
+                    <option value="flood" selected>Flash Flood</option>
+                    <option value="hail">Hail</option>
+                    <option value="hurricane">Hurricane</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="tornado">Tornado</option>
+                </datalist></label>
+                    <label for="severity"><br>Storm Severity:
+                <input type="range" name="severity" min="1" max="10"id="severity" ></label>
+                    <label for="sregion"><br>Storm Region:>
+                <select name="sregion">
+                    <option value="sregion" selected>Select Region</option>
+                    <option value="prston">Preston</option>
+                    <option value="sodaSpring">Soda Spring</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select></label>
+                    <label for="userid"><br>User In-Danger:
+                <input type="radio" name="options" value="yes" id="yes" ></label>
+                    <label for="yes">Yes
+                <input type="radio" name="options" value="no" id="no"></label>
+                    <label for="no">No
+                <input type="radio" name="options" value="maybe" id="maybe" ></label>
+                    <label for="maybe">Maybe</label>
+                </fieldset>
+                <textarea name="message" rows="10" cols="30">Please, leave your message here.
+                </textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        &copy; <span id="year">2020</span>| Weathersee | Degina Fernandes | <br>Last Update:<span id='currentdate'></span>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/year.js"></script>
+
+</body>
+
+</html>
