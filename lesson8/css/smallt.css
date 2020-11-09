@@ -153,3 +153,7 @@ h3 {
     display: table;
     clear: both;
 }
+
+p {
+    margin-left: 9px;
+}

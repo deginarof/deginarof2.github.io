@@ -181,6 +181,16 @@ label {
     color: #fb8500;
 }
 
+.sregion {
+    color: #fb8500;
+    margin-top: 15px;
+}
+
+.sregion1 {
+    color: gray;
+    ;
+}
+
 .top input,
 .top select {
     display: block;
@@ -216,14 +226,33 @@ form fieldset label input.send {
     max-width: 20rem;
 }
 
-form>fieldset>label>.top>input:required {
+.required:required {
     border-left: 6px solid #ffb703;
 }
 
-form>fieldset>label>.top>input:required:valid {
+.required:required:valid {
     border-left: 6px solid #023047;
 }
 
 .required {
     color: red;
+}
+
+#severity {
+    width: 50%;
+}
+
+.severity {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    color: #fb8500;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+textarea {
+    color: gray;
 }

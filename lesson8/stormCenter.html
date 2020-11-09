@@ -46,17 +46,17 @@
         <h2>Storm Center</h2>
         <h3>Storm Report</h3>
         <div>
-            <form action="thanks.html" target="_blank" method="POST">
+            <form action="thanks.html" target="_blank" method="GET">
                 <fieldset class="division">
                     <legend>Personal Information</legend>
                     <label class="top" for="fname">Full name<span class="required">*</span>
-                <input type="text" name="fname" id="fname" pattern="[A-Za-z]{5,}" placeholder="John Roberts" autofocus required></label>
+                <input class="required" type="text" name="fname" id="fname" pattern="[A-Za-z]{5,}" placeholder="John Roberts" autofocus required></label>
                     <label class="top" for="email"><br>e-mail
                 <input type="email" name="email" id="email" placeholder="1234@email.com" autofocus></label>
                     <label class="top" for="phnumber"><br>Phone Number<span class="required">*</span>
-                <input type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required autofocus></label>
+                <input class="required" type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required autofocus></label>
                     <label class="top" for="zipCode"><br>Zip Code<span class="required">*</span>
-                <input type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required autofocus></label>
+                <input class="required" type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required autofocus></label>
                 </fieldset>
                 <fieldset class="division">
                     <legend>Storm Information</legend>
@@ -71,10 +71,10 @@
                     <option value="thunderstorm">Thunderstorm</option>
                     <option value="tornado">Tornado</option>
                 </datalist></label>
-                    <label class="top" for="severity"><br>Storm Severity &nbsp;&nbsp;&nbsp;
+                    <label class="severity" class="top" for="severity"><br>Storm Severity &nbsp;&nbsp;&nbsp;
                 <input type="range" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" id="severity"><span id="ratingvalue">5</span></label>
-                    <label class="top" for="sregion"><br>Storm Region
-                <select name="sregion">
+                    <label class="sregion" class="top" for="sregion"><br>Storm Region
+                <select class="sregion1" name="sregion">
                     <option value="sregion" selected>Select Region</option>
                     <option value="prston">Preston</option>
                     <option value="sodaSpring">Soda Spring</option>
@@ -92,7 +92,7 @@
                 <input type="radio" name="options" value="maybe" id="maybe" ></label>
                     <textarea class="message" name="message" rows="10" cols="28">Please, leave your message here.
                 </textarea>
-                    <label><input class="send" type="submit" value="Sending Storm"></label>
+                    <label><input class="send"  type="submit" value="Sending Storm"></label>
                 </fieldset>
             </form>
 
@@ -109,6 +109,7 @@
     <script src="js/currentdate.js"></script>
     <script src="js/year.js"></script>
     <script src="js/friday.js"></script>
+    <script src="js/rating.js"></script>
 </body>
 
 </html>
