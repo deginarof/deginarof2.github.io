@@ -135,19 +135,6 @@ main>div {
     margin: 8px;
 }
 
-h2 {
-    color: #fb8500;
-    font-family: 'Montserrat Alternates', sans-serif;
-    text-shadow: 1px 2px #023047;
-    margin-left: 10px;
-}
-
-h3 {
-    color: #023047;
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-left: 10px;
-}
-
 .clearfix:after {
     content: "";
     display: table;

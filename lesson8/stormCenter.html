@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,300;1,900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="/lesson8/css/small.css">
-    <link rel="stylesheet" href="/esson8/css/medium.css">
+    <link rel="stylesheet" href="/lesson8/css/medium.css">
     <link rel="stylesheet" href="/lesson8/css/large.css">
     <title>Storm Center</title>
 </head>
@@ -45,8 +45,8 @@
     <main>
         <h2>Storm Center</h2>
         <h3>Storm Report</h3>
-        <div>
-            <form action="thanks.html" target="_blank" method="GET">
+        <div class="container">
+            <form action="thanks.html" method="GET">
                 <fieldset class="division">
                     <legend>Personal Information</legend>
                     <label class="top" for="fname">Full name<span class="required">*</span>
@@ -76,9 +76,9 @@
                     <label class="sregion" class="top" for="sregion"><br>Storm Region
                 <select class="sregion1" name="sregion">
                     <option value="sregion" selected>Select Region</option>
+                    <option value="fishHaven">Fish Haven</option>
                     <option value="prston">Preston</option>
                     <option value="sodaSpring">Soda Spring</option>
-                    <option value="fishHaven">Fish Haven</option>
                 </select></label>
                 </fieldset>
                 <fieldset class="division">
@@ -90,9 +90,9 @@
                 <input type="radio" name="options" value="no" id="no"></label>
                     <label class="sbs" for="maybe">Maybe
                 <input type="radio" name="options" value="maybe" id="maybe" ></label>
-                    <textarea class="message" name="message" rows="10" cols="28">Please, leave your message here.
+                    <textarea class="message" name="message" rows="10" cols="25">Please, leave your message here.
                 </textarea>
-                    <label><input class="send"  type="submit" value="Sending Storm"></label>
+                    <label><input class="send"  type="submit" value="Storm Information"></label>
                 </fieldset>
             </form>
 

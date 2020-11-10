@@ -28,15 +28,7 @@
     footer {
         margin-top: 0px;
     }
-    #severity {
-        width: 20%;
-    }
-    textarea {
-        width: 80%;
-        margin-left: 2%;
-    }
-    form fieldset label input.send {
-        margin: 15px 0px 15px 57%;
-        width: 28%;
+    p {
+        margin: 15% 0% 15% 30%;
     }
 }

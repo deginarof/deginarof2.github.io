@@ -127,14 +127,6 @@ main {
     margin: 18px;
 }
 
-main>div {
-    color: #023047;
-    border: 2px solid #219ebc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 8px;
-}
-
 h2 {
     color: #fb8500;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -146,6 +138,7 @@ h3 {
     color: #023047;
     font-family: 'Montserrat Alternates', sans-serif;
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .clearfix:after {
@@ -188,14 +181,14 @@ label {
 
 .sregion1 {
     color: gray;
-    ;
+    padding: 8px;
 }
 
 .top input,
 .top select {
     display: block;
     font-size: 16px;
-    border: 1px solid #023047;
+    border: none;
     border-radius: 4px;
     padding: 8px;
     color: gray;
