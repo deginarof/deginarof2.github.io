@@ -51,18 +51,18 @@
                     <label class="top" for="fname">Full name<span class="required">*</span>
                 <input class="required" type="text" name="fname" id="fname" pattern="[A-Za-z]{5,}" placeholder="John Roberts" autofocus required></label>
                     <label class="top" for="email"><br>e-mail
-                <input type="email" name="email" id="email" placeholder="1234@email.com" autofocus></label>
+                <input type="email" name="email" id="email" placeholder="1234@email.com"></label>
                     <label class="top" for="phnumber"><br>Phone Number<span class="required">*</span>
-                <input class="required" type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required autofocus></label>
+                <input class="required" type="tel" name="phnumber" id="phnumber" placeholder="(XXX) XXX-XXXX" required ></label>
                     <label class="top" for="zipCode"><br>Zip Code<span class="required">*</span>
-                <input class="required" type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required autofocus></label>
+                <input class="required" type="number" name="zipCode" id="zipCode" placeholder="XXXXX" required ></label>
                 </fieldset>
                 <fieldset class="division">
                     <legend>Storm Information</legend>
                     <label class="top" for="date"><br>Storm Date
                 <input type="date" name="date" id="date"></label>
-                    <label for="storms" class="top"><br>Storm Type
-                <input type="text" name="storm" list="storms">
+                    <label for="storm" class="top"><br>Storm Type
+                <input type="text" name="storm" list="storms" id="storm">
                 <datalist id="storms">
                     <option value="Flood"></option>
                     <option value="Hail"></option>
@@ -71,9 +71,9 @@
                     <option value="Tornado"></option>
                 </datalist></label>
                     <label class="severity" class="top" for="severity"><br>Storm Severity &nbsp;&nbsp;&nbsp;
-                <input type="range" name="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" id="severity"><span id="ratingvalue">5</span></label>
+                <input type="range" name="severity" value="5" min="1" max="10" step="1" list="sregion" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" id="severity"><span id="ratingvalue">5</span></label>
                     <label class="sregion" class="top" for="sregion"><br>Storm Region
-                <select class="sregion1" name="sregion">
+                <select class="sregion1" name="sregion" id="sregion">
                     <option value="sregion" selected>Select Region</option>
                     <option value="fishHaven">Fish Haven</option>
                     <option value="prston">Preston</option>
