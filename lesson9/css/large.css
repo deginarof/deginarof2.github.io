@@ -1,8 +1,12 @@
 @media only screen and (min-width: 60em) {
+    main {
+        height: 90%;
+    }
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 15px;
+        box-shadow: 8px 8px 10px gray;
     }
     h1 {
         font-size: 3.5rem;
@@ -12,6 +16,9 @@
         margin-left: 25%;
     }
     img {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 25%;
         box-shadow: 8px 9px 10px #ffffff;
     }
 }
