@@ -1,0 +1,25 @@
+@media only screen and (min-width: 37.5em) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
+    }
+    main {
+        margin: 0%;
+    }
+    h1 {
+        padding: 10%;
+        font-size: 2.6rem;
+        box-shadow: 5px 4px 10px gray;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        margin-left: 20%;
+    }
+    img {
+        height: 60%;
+        box-shadow: 5px 4px 10px #ffffff;
+    }
+}

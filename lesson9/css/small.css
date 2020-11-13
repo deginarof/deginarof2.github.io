@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+main {
+    height: 90%;
+    background-color: #023047;
+    margin: 0% 5%;
+}
+
+footer {
+    background-color: #067e9c;
+}
+
+footer {
+    height: 60px;
+    text-align: center;
+    padding: 28px 20px 20px 20px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+footer a {
+    color: #fb8500;
+}
+
+section {
+    margin: 0% -1%;
+    padding: 12px;
+}
+
+h1 {
+    padding: 5%;
+    margin: 5%;
+    border: 5px solid #023047;
+}
+
+h1,
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    color: #fb8500;
+}
+
+p {
+    margin-left: 9%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+img {
+    width: 80%;
+    margin: 26px;
+    border: 5px solid #3eb2cf;
+}
