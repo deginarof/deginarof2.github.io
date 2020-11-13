@@ -6,8 +6,12 @@
     }
     h1 {
         font-size: 3.5rem;
+        padding: 6%;
     }
     p {
         margin-left: 25%;
+    }
+    img {
+        box-shadow: 8px 9px 10px #ffffff;
     }
 }
