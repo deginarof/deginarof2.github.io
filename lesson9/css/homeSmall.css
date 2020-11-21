@@ -130,28 +130,16 @@ a {
     text-decoration: none;
 }
 
-main {
-    margin: 18px;
+.hero {
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 80%;
 }
 
-.hero img {
-    width: 100%;
-    margin: 10px 0% 5px 0%;
-}
-
-.summary {
-    width: 90%;
-    background-color: #219ebc;
-    padding: 2px 10px;
-    margin: 0px 5px 5px 5px;
-}
-
-.summary p {
-    text-align: left;
-}
-
-.forecast {
-    display: none;
+.paragraph {
+    margin-left: 0% 10%;
+    text-align: justify;
+    width: 80%;
 }
 
 .container picture img {
