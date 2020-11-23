@@ -6,10 +6,10 @@
         margin-left: 10%;
     }
     header picture img {
-        margin: 20px 20px 15px -16px;
+        margin: 20px 20px 15px -2px;
     }
     .center>div {
-        margin-left: 2px;
+        margin-left: 30px;
     }
     nav button {
         display: none;
@@ -33,49 +33,36 @@
         margin-right: 0%;
     }
     h2 {
-        font-size: 1.8rem;
-        margin-left: 113px;
-        margin-bottom: 40px;
-        margin-top: 40px;
+        font-size: 1.9rem;
+        margin-left: 10px;
+    }
+    h3 {
+        font-size: 1.3rem;
+        margin-left: 20px;
     }
     .hero img {
         width: 100%;
         margin: 5px -5% 5px -10%;
     }
-    .summary {
-        width: 20%;
-        padding: 5px;
-        margin: 10px 0px;
-        bottom: 155px;
-        left: 110px;
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .summary h3 {
-        margin-left: 31px;
+    .towns section {
+        padding-right: 20px;
+        box-shadow: 0 5px 8px rgb(36, 35, 35);
     }
-    .summary p {
-        font-size: 1.2rem;
+    .towns p {
+        font-size: 1.5rem;
+        text-align: center;
     }
-    .forecast {
-        width: 81%;
-        margin-left: 8%;
-        margin-right: 8%;
+    .towns img {
+        margin: 30px;
+        width: 90%;
+        box-shadow: 0 5px 8px rgb(36, 35, 35);
     }
-    table {
-        margin: 15px 10% 15px 10%;
-    }
-    table,
-    th,
-    td {
-        border: 3px solid #8ecae6;
-        border-collapse: collapse;
-    }
-    th,
-    td {
-        padding: 20px;
-    }
-    td img {
-        width: 50%;
-        margin-right: 40px;
+    main section {
+        display: grid;
     }
     .container {
         width: 80%;

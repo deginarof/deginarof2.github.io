@@ -1,10 +1,4 @@
 @media only screen and (min-width: 37.5em) {
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding: 15px;
-        column-gap: 15px;
-    }
     main {
         margin: 0%;
     }

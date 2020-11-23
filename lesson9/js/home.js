@@ -7,81 +7,90 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 1; i <= towns.length; i++) {
             if (towns[i].name === "Fish Haven") {
-                let card = document.createElement('section');
-                let h2 = document.createElement('h1');
-                let h3 = document.createElement('h2');
+                let infofh = document.createElement('div');
+                let mainsection = document.createElement('section');
+                let h2 = document.createElement('h2');
+                let h3 = document.createElement('h3');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
-                let photo = document.createElement('img');
+                let picture = document.createElement('img');
 
+                mainsection.className = "contentReverse";
                 h2.textContent = towns[i].name;
                 h3.textContent = towns[i].motto;
                 yearFounded.textContent = "Found Year:" + " " + towns[i].yearFounded;
                 currentPopulation.textContent = "Current Population:" + " " + towns[i].currentPopulation;
                 averageRainfall.textContent = "Current Rainfall:" + " " + towns[i].averageRainfall;
-                photo.setAttribute('src', towns[i].photo);
-                photo.setAttribute('alt', towns[i].name);
+                picture.setAttribute('src', 'images/' + towns[i].photo);
+                picture.setAttribute('alt', towns[i].name);
 
-                card.appendChild(h2);
-                card.appendChild(h3);
-                card.appendChild(yearFounded);
-                card.appendChild(currentPopulation);
-                card.appendChild(averageRainfall);
-                card.appendChild(photo);
-                document.querySelector('div.towns').appendChild(card);
+                infofh.appendChild(h2);
+                infofh.appendChild(h3);
+                infofh.appendChild(yearFounded);
+                infofh.appendChild(currentPopulation);
+                infofh.appendChild(averageRainfall);
+                mainsection.appendChild(picture);
+                mainsection.appendChild(infofh);
+
+                document.querySelector('div.towns').appendChild(mainsection);
             }
             if (towns[i].name === "Preston") {
-                let card = document.createElement('section');
-                let h2 = document.createElement('h1');
-                let h3 = document.createElement('h2');
+                let infop = document.createElement('div');
+                let mainsection = document.createElement('section');
+                let h2 = document.createElement('h2');
+                let h3 = document.createElement('h3');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
-                let photo = document.createElement('img');
+                let picture = document.createElement('img');
 
                 h2.textContent = towns[i].name;
                 h3.textContent = towns[i].motto;
                 yearFounded.textContent = "Found Year:" + " " + towns[i].yearFounded;
                 currentPopulation.textContent = "Current Population:" + " " + towns[i].currentPopulation;
                 averageRainfall.textContent = "Current Rainfall:" + " " + towns[i].averageRainfall;
-                photo.setAttribute('src', towns[i].photo);
-                photo.setAttribute('alt', towns[i].name);
+                picture.setAttribute('src', 'images/' + towns[i].photo);
+                picture.setAttribute('alt', towns[i].name);
 
-                card.appendChild(h2);
-                card.appendChild(h3);
-                card.appendChild(yearFounded);
-                card.appendChild(currentPopulation);
-                card.appendChild(averageRainfall);
-                card.appendChild(photo);
-                document.querySelector('div.towns').appendChild(card);
+                infop.appendChild(h2);
+                infop.appendChild(h3);
+                infop.appendChild(yearFounded);
+                infop.appendChild(currentPopulation);
+                infop.appendChild(averageRainfall);
+                mainsection.appendChild(picture);
+                mainsection.appendChild(infop);
+
+                document.querySelector('div.towns').appendChild(mainsection);
             }
             if (towns[i].name === "Soda Springs") {
-                let card = document.createElement('section');
-                let h2 = document.createElement('h1');
-                let h3 = document.createElement('h2');
+                let infoss = document.createElement('div');
+                let mainsection = document.createElement('section');
+                let h2 = document.createElement('h2');
+                let h3 = document.createElement('h3');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
-                let photo = document.createElement('img');
+                let picture = document.createElement('img');
 
+                mainsection.className = "contentReverse";
                 h2.textContent = towns[i].name;
                 h3.textContent = towns[i].motto;
                 yearFounded.textContent = "Found Year:" + " " + towns[i].yearFounded;
                 currentPopulation.textContent = "Current Population:" + " " + towns[i].currentPopulation;
                 averageRainfall.textContent = "Current Rainfall:" + " " + towns[i].averageRainfall;
-                photo.setAttribute('src', towns[i].photo);
-                photo.setAttribute('alt', towns[i].name);
+                picture.setAttribute('src', 'images/' + towns[i].photo);
+                picture.setAttribute('alt', towns[i].name);
 
-                card.appendChild(h2);
-                card.appendChild(h3);
-                card.appendChild(yearFounded);
-                card.appendChild(currentPopulation);
-                card.appendChild(averageRainfall);
-                card.appendChild(photo);
-                document.querySelector('div.towns').appendChild(card);
+                infoss.appendChild(h2);
+                infoss.appendChild(h3);
+                infoss.appendChild(yearFounded);
+                infoss.appendChild(currentPopulation);
+                infoss.appendChild(averageRainfall);
+                mainsection.appendChild(picture);
+                mainsection.appendChild(infoss);
+
+                document.querySelector('div.towns').appendChild(mainsection);
             }
         }
-
-
     });

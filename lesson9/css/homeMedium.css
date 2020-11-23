@@ -1,6 +1,9 @@
 @media only screen and (min-width: 37.5em) {
     header picture img {
-        margin: 20px 20px 15px 40px;
+        margin: 20px 20px 15px 110px;
+    }
+    header {
+        margin: none;
     }
     h1 {
         font-size: 1.7rem;
@@ -23,60 +26,45 @@
     }
     h2 {
         font-size: 1.6rem;
-        margin-left: 29px;
+        margin-left: -25px;
     }
     h3 {
-        font-size: 1.6rem;
-        margin-left: 7px;
+        font-size: 1rem;
+        margin-left: -20px;
+    }
+    p {
+        font-size: 1rem;
     }
     main {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .totalCont {
-        position: relative;
-    }
     .hero img {
         width: 100%;
         margin: 5px 0% 5px 0%;
     }
-    .summary {
-        width: 35%;
-        padding: 0px 10px;
-        margin: 5px 0px 35px 0px;
-        background-color: #8ecae6a8;
-        position: absolute;
-        bottom: 10px;
-        left: 28px;
-        box-shadow: 5px 5px 4px #1f1d1d;
+    .hero {
+        box-shadow: 0 2px 5px rgb(36, 35, 35);
     }
-    .forecast {
-        display: block;
-        background-color: #023047;
-        width: 96%;
-        padding: 1px 15px 15px 15px;
-        box-shadow: 0 2px 5px gray;
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #c3dfec;
+        box-shadow: 0 2px 5px rgb(36, 35, 35);
+        margin: 10px 0px;
     }
-    .forecast h3 {
-        margin-left: 12px;
+    main section {
+        margin: 5%;
+        display: flex;
+        flex-direction: row;
     }
-    table,
-    th,
-    td {
-        border: 2px solid #8ecae6;
-        border-collapse: collapse;
-        box-shadow: none;
+    .towns img {
+        margin: 30px;
+        width: 50%;
+        box-shadow: 0 5px 8px rgb(36, 35, 35);
     }
-    table tr th {
-        color: #8ecae6;
-    }
-    th,
-    td {
-        padding: 10px;
-    }
-    td img {
-        width: 30%;
-        margin-right: 10px;
+    .contentReverse {
+        flex-direction: row-reverse;
     }
     .container {
         width: 85%;
@@ -98,6 +86,9 @@
     }
     .info p {
         margin-top: 5px;
+    }
+    .info h3 {
+        font-size: 1.6rem;
     }
     .map img {
         width: 60%;

@@ -5,6 +5,7 @@ fetch(requestURL)
     })
     .then(function(jsonObject) {
         const towns = jsonObject['towns'];
+        console.log(towns[1].photo)
         for (let i = 1; i <= towns.length; i++) {
             if (towns[i].name === "Fish Haven") {
                 let card = document.createElement('section');
