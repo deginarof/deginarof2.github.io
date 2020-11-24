@@ -50,10 +50,11 @@
             </picture>
             <div class="summary">
                 <h3>Weather Summary</h3>
-                <p>Currently: Sunny High:76F</p>
-                <p>Wind Chilli: F</p>
-                <p> Humidity: 69%</p>
-                <p>Wind Speed: 5mph</p>
+                <p>Currently: <span id="description"></span></p>
+                <p>High: <span id="current-temp"></span>&deg;F</p>
+                <p>Wind Chilli: <span id="wind"></span>&deg; F</p>
+                <p> Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="wind-speed"></span>&deg;mph</p>
             </div>
         </div>
         <div class="forecast">
@@ -67,11 +68,11 @@
                     <th>Fri</th>
                 </tr>
                 <tr>
-                    <td><img src="images/weatherIcon.webp" alt="Cloudy Icon"></td>
-                    <td><img src="images/weatherIcon.webp" alt="Cloudy Icon"></td>
-                    <td><img src="images/weatherIcon.webp" alt="Cloudy Icon"></td>
-                    <td><img src="images/weatherIcon.webp" alt="Cloudy Icon"></td>
-                    <td><img src="images/weatherIcon.webp" alt="Cloudy Icon"></td>
+                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
+                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
+                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
+                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
+                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -130,6 +131,7 @@
     <script src="js/currentdate.js"></script>
     <script src="js/year.js"></script>
     <script src="js/friday.js"></script>
+    <script src="js/prestonWeatherApi.js"></script>
 </body>
 
 </html>
