@@ -7,4 +7,18 @@ fetch(requestURL)
         document.getElementById('description').textContent = jsObject.weather[0].description;
         document.getElementById('humidity').textContent = jsObject.main.humidity;
         document.getElementById('wind-speed').textContent = jsObject.wind.speed;
+
+        const t = parseFloat(document.getElementById('current-temp').textContent);
+        const s = parseFloat(document.getElementById('wind-speed').textContent);
+        const output = "Not Applicable";
+
+        let w = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
+        w = Math.round(w);
+
+        if (t <= 50 && s > 3) {
+            document.getElementById('wind').innerHTML = w;
+        } else {
+            document.getElementById('wind').innerHTML = output;
+        }
+
     });

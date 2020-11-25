@@ -52,34 +52,39 @@
                 <h3>Weather Summary</h3>
                 <p>Currently: <span id="description"></span></p>
                 <p>High: <span id="current-temp"></span>&deg;F</p>
-                <p>Wind Chilli: <span id="wind"></span>&deg; F</p>
+                <p>Wind Chilli: <span id="wind"></span></p>
                 <p> Humidity: <span id="humidity"></span>%</p>
-                <p>Wind Speed: <span id="wind-speed"></span>&deg;mph</p>
+                <p>Wind Speed: <span id="wind-speed"></span>mph</p>
             </div>
         </div>
         <div class="forecast">
             <h3>Day Forecast</h3>
             <table>
                 <tr>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
+                    <th id="day1">Monday</th>
+                    <th id="day2">Tuesday</th>
+                    <th id="day3">Wednesday</th>
+                    <th id="day4">Thursday</th>
+                    <th id="day5">Friday</th>
                 </tr>
                 <tr>
-                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
-                    <td><span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></td>
+                    <td><span id="imagesrc1"></span> &nbsp; <img src="" alt="" id="icon1"></td>
+
+                    <td><span id="imagesrc2"></span> &nbsp; <img src="" alt="" id="icon2"></td>
+
+                    <td><span id="imagesrc3"></span> &nbsp; <img src="" alt="" id="icon3"></td>
+
+                    <td><span id="imagesrc4"></span> &nbsp; <img src="" alt="" id="icon4"></td>
+
+                    <td><span id="imagesrc5"></span> &nbsp; <img src="" alt="" id="icon5"></td>
+
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><span id="1temp">31</span>&deg;F</td>
+                    <td><span id="2temp">34</span>&deg;F</td>
+                    <td><span id="3temp">31</span>&deg;F</td>
+                    <td><span id="4temp">37</span>&deg;F</td>
+                    <td><span id="5temp">31</span>&deg;F</td>
                 </tr>
             </table>
         </div>
@@ -125,13 +130,14 @@
     </main>
 
     <footer>
-        &copy; <span id="year">2020</span>| Weathersee | Degina Fernandes | <br>Last Update:<span id='currentdate'></span>
+        &copy; <span id="year">2020</span>| Weathersee | Degina Fernandes | <br><a href="https://openweathermap.org/" target="_blank">Open Weather Resource</a> <br>Last Update:<span id='currentdate'></span> |
     </footer>
     <script src="js/toggle.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/year.js"></script>
     <script src="js/friday.js"></script>
     <script src="js/prestonWeatherApi.js"></script>
+    <script src="js/prestonForecast.js"></script>
 </body>
 
 </html>
