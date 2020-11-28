@@ -1,16 +1,12 @@
 @media only screen and (min-width: 37.5em) {
+    .center>h1 {
+        font-size: 1.3rem;
+    }
+    .center>.motto {
+        margin-left: 30px;
+    }
     header picture img {
-        margin: 20px 20px 15px 40px;
-    }
-    h1 {
-        font-size: 1.7rem;
-    }
-    header picture img {
-        margin: 20px 20px 15px 78px;
-    }
-    .center>div {
-        margin-top: -15px;
-        margin-left: 60px;
+        margin: 20px 20px 15px 20px;
     }
     nav button {
         display: none;
@@ -27,6 +23,7 @@
     nav ul li a {
         font-size: 1em;
         padding: .8rem .4rem;
+        font-weight: 900;
     }
     h2 {
         font-size: 1.6rem;

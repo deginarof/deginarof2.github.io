@@ -3,11 +3,10 @@
         margin: 20px 20px 15px 40px;
     }
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
-    .center>div {
-        margin-top: -15px;
-        margin-left: 60px;
+    .center>.motto {
+        margin-left: 30px;
     }
     nav button {
         display: none;
@@ -22,8 +21,9 @@
         display: block;
     }
     nav ul li a {
-        font-size: 1em;
+        font-size: 1rem;
         padding: .8rem .4rem;
+        font-weight: 900;
     }
     h2 {
         font-size: 1.6rem;

@@ -2,11 +2,11 @@
     header picture img {
         margin: 20px 20px 15px 40px;
     }
-    h1 {
-        font-size: 1.7rem;
+    .center>h1 {
+        font-size: 1.3rem;
     }
     .center>.motto {
-        margin-left: 60px;
+        margin-left: 30px;
     }
     nav button {
         display: none;

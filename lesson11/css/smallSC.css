@@ -97,7 +97,7 @@ nav ul.hide {
     display: none;
 }
 
-nav ul li a {
+nav>ul>li>a {
     display: block;
     color: #ffb703;
     padding: .8rem 2%;
@@ -130,7 +130,7 @@ main {
 h2 {
     color: #fb8500;
     font-family: 'Montserrat Alternates', sans-serif;
-    text-shadow: 1px 2px #023047;
+    text-shadow: 1px 2px#023047;
     margin-left: 10px;
 }
 
