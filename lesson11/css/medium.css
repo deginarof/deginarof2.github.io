@@ -24,6 +24,9 @@
         font-size: 1em;
         padding: .8rem .4rem;
     }
+    p {
+        font-size: 1.1rem;
+    }
     h2 {
         font-size: 1.6rem;
         margin-left: 29px;
@@ -106,6 +109,12 @@
     }
     .container p {
         margin-left: 3%;
+    }
+    .container h2 {
+        text-align: left;
+    }
+    .italics {
+        margin-left: 52%;
     }
     .info h3,
     p {

@@ -44,6 +44,9 @@
         width: 100%;
         margin: 5px -5% 5px -10%;
     }
+    .italics {
+        margin-left: 74%;
+    }
     .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

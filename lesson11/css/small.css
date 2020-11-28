@@ -175,6 +175,14 @@ main {
     margin: 5px 10px;
 }
 
+.container h2 {
+    text-align: center;
+}
+
+.italics {
+    margin-left: 0%;
+}
+
 .info {
     width: 100%;
     background-color: #219ebc;

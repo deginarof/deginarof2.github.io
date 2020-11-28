@@ -150,7 +150,12 @@ a {
     width: 80%;
 }
 
+.italics {
+    margin-left: 22%;
+}
+
 .towns {
+    margin-top: 15px;
     background-color: #c3dfec;
     padding: 15px;
 }
@@ -182,6 +187,12 @@ a {
 .info h3,
 p {
     text-align: center;
+}
+
+.info h3 {
+    color: #fb8500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 1px 2px #023047;
 }
 
 .map img {
