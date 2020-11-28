@@ -116,6 +116,9 @@
     .italics {
         margin-left: 52%;
     }
+    .ita {
+        margin: 44%;
+    }
     .info h3,
     p {
         text-align: left;
