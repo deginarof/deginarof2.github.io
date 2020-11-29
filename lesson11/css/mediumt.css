@@ -2,12 +2,11 @@
     header picture img {
         margin: 20px 20px 15px 78px;
     }
-    h1 {
-        font-size: 1.7rem;
+    .center>h1 {
+        font-size: 1.3rem;
     }
-    .center>div {
-        margin-top: -15px;
-        margin-left: 60px;
+    .center>.motto {
+        margin-left: 30px;
     }
     nav button {
         display: none;
@@ -26,6 +25,9 @@
         padding: .8rem .4rem;
     }
     p {
-        margin: 15% 0% 15% 9%;
+        font-size: 15px;
+    }
+    main {
+        margin-left: 10%;
     }
 }

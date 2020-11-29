@@ -1,10 +1,3 @@
-#message {
-    background-color: #ffb703;
-    padding: 10px 9% 10px 9%;
-    margin: 5px 0% 5px 0%;
-    text-align: center;
-}
-
 div.showme {
     display: block;
 }
@@ -37,13 +30,21 @@ footer {
     font-size: 0.8rem;
 }
 
-img {
+footer>a:link {
+    color: #ffb703;
+}
+
+footer>a:visited {
+    color: #ffffff;
+}
+
+header picture img {
     width: 80px;
-    margin: 20px 20px 15px 20px;
+    margin: 20px 20px 15px 30px;
 }
 
 h1,
-div,
+.motto,
 footer {
     color: #8ecae6;
 }
@@ -53,6 +54,13 @@ h1 {
     font-size: 1.3rem;
     font-weight: bold;
     color: #ffb703;
+}
+
+h2,
+h3 {
+    color: #fb8500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 1px 2px #023047;
 }
 
 .center {
@@ -143,4 +151,5 @@ main>div {
 
 p {
     margin-left: 9px;
+    font-weight: 900;
 }
