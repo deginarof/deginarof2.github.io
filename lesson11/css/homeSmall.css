@@ -184,15 +184,15 @@ a {
     padding: 5px 10px 80px 10px;
 }
 
-.info h3,
 p {
-    text-align: center;
+    text-align: left;
 }
 
 .info h3 {
     color: #fb8500;
     font-family: 'Montserrat Alternates', sans-serif;
     text-shadow: 1px 2px #023047;
+    text-align: center;
 }
 
 .map img {
