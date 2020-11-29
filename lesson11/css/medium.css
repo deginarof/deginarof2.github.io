@@ -1,50 +1,50 @@
 @media only screen and (min-width: 37.5em) {
     header picture img {
-        margin: 20px 20px 15px 40px;
+        margin: 20px 20px 15px 40px
     }
     .center>h1 {
-        font-size: 1.3rem;
+        font-size: 1.3rem
     }
     .center>.motto {
-        margin-left: 30px;
+        margin-left: 30px
     }
     nav button {
-        display: none;
+        display: none
     }
     nav {
-        padding-left: 4%;
+        padding-left: 4%
     }
     nav ul li {
-        float: left;
+        float: left
     }
     nav ul.hide {
-        display: block;
+        display: block
     }
     nav ul li a {
         font-size: 1em;
-        padding: .8rem .4rem;
+        padding: .8rem .4rem
     }
     p {
-        font-size: 1.1rem;
+        font-size: 1.1rem
     }
     h2 {
         font-size: 1.6rem;
-        margin-left: 29px;
+        margin-left: 29px
     }
     h3 {
         font-size: 1.6rem;
-        margin-left: 7px;
+        margin-left: 7px
     }
     main {
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 5%
     }
     .totalCont {
-        position: relative;
+        position: relative
     }
     .hero img {
         width: 100%;
-        margin: 5px 0% 5px 0%;
+        margin: 5px 0% 5px 0%
     }
     .summary {
         width: 35%;
@@ -54,36 +54,36 @@
         position: absolute;
         bottom: 10px;
         left: 28px;
-        box-shadow: 5px 5px 4px #1f1d1d;
+        box-shadow: 5px 5px 4px #1f1d1d
     }
     .forecast {
         display: block;
         background-color: #023047;
         width: 96%;
         padding: 1px 15px 15px 15px;
-        box-shadow: 0 2px 5px gray;
+        box-shadow: 0 2px 5px gray
     }
     .forecast h3 {
-        margin-left: 12px;
+        margin-left: 12px
     }
     table {
         width: 100%;
         margin-left: 0px;
-        margin-bottom: 12px;
+        margin-bottom: 12px
     }
     table,
     th,
     td {
         border: 2px solid #8ecae6;
         border-collapse: collapse;
-        box-shadow: none;
+        box-shadow: none
     }
     table tr th {
-        color: #8ecae6;
+        color: #8ecae6
     }
     th,
     td {
-        padding: 10px;
+        padding: 10px
     }
     img#icon1,
     img#icon2,
@@ -91,63 +91,63 @@
     img#icon4,
     img#icon5 {
         width: 80%;
-        margin-left: 10px;
+        margin-left: 10px
     }
     td {
         color: #8ecae6;
-        text-align: center;
+        text-align: center
     }
     .container {
         width: 85%;
         margin: 1% 4%;
-        box-shadow: 0 2px 5px gray;
+        box-shadow: 0 2px 5px gray
     }
     .container picture img {
         width: 65%;
         margin: 20px 13% 20px 17%;
-        box-shadow: 0 2px 5px rgb(36, 35, 35);
+        box-shadow: 0 2px 5px rgb(36, 35, 35)
     }
     .container p {
-        margin-left: 3%;
+        margin-left: 3%
     }
     .container h2 {
-        text-align: left;
+        text-align: left
     }
     .italics {
-        margin-left: 52%;
+        margin-left: 52%
     }
     .ita {
-        margin: 44%;
+        margin: 44%
     }
     .itals {
-        margin-left: 46%;
+        margin-left: 46%
     }
     .info h3,
     p {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 10%
     }
     .info p {
-        margin-top: 5px;
+        margin-top: 5px
     }
     .map img {
         width: 60%;
         margin-left: 10%;
         margin-top: 4%;
-        margin-bottom: 5%;
+        margin-bottom: 5%
     }
     .ssmap img,
     .fhmap img {
         margin-left: 70px;
         width: 50%;
-        box-shadow: 5px 5px 7px #5a5a5a;
+        box-shadow: 5px 5px 7px #5a5a5a
     }
     .icons {
         position: absolute;
         bottom: 35px;
-        left: 72%;
+        left: 72%
     }
     .icons img {
-        width: 21%;
+        width: 21%
     }
 }

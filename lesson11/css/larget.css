@@ -1,38 +1,38 @@
 @media only screen and (min-width: 60em) {
     .header {
-        margin-bottom: 0px;
+        margin-bottom: 0px
     }
     picture {
-        margin-left: 10%;
+        margin-left: 10%
     }
     .center>div {
-        margin-left: 2px;
+        margin-left: 2px
     }
     nav button {
-        display: none;
+        display: none
     }
     nav {
-        padding-left: 24%;
+        padding-left: 24%
     }
     nav ul li {
-        float: left;
+        float: left
     }
     nav ul.hide {
-        display: block;
+        display: block
     }
     nav ul li a {
         font-size: 1.2em;
-        padding: .6rem .7rem;
+        padding: .6rem .7rem
     }
     main,
     footer {
-        margin-top: 0px;
+        margin-top: 0px
     }
     p {
         margin: 15% 0% 15% 30%;
-        font-size: 20px;
+        font-size: 20px
     }
     main {
-        margin-left: -12%;
+        margin-left: -12%
     }
 }
