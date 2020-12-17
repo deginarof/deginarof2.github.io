@@ -37,7 +37,68 @@ button {
 }
 
 nav button {
-    width: 10%
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #264653;
+    padding: 6px;
+    box-shadow: none;
+    margin-top: 2px;
+    margin-right: 25px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #264653;
+    padding: 6px;
+}
+
+nav {
+    background-color: #e76f51;
+    box-shadow: 0 2px 5px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #f5bb8b;
+    padding: .8rem 2%;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 2px 2px 5px #264653;
+}
+
+nav a:hover {
+    background-color: #264653;
+    color: #e76f51;
+}
+
+.active {
+    background-color: #f4a261;
+    color: #264653;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 18px;
 }
 
 .titleOne,
@@ -112,7 +173,7 @@ footer a:visited {
 
 .icons {
     position: absolute;
-    left: 125%;
+    left: 120%;
     bottom: -36px;
 }
 
